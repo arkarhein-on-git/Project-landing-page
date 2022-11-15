@@ -1,0 +1,57 @@
+
+div.first-row {
+    background-image: url("tokyo.jpg") ;
+    height: 450px;
+    width: 1250px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.below-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px ;
+}
+
+.contents{
+    width: 500px;
+    margin-right: 20px;
+}
+
+img{
+    border-radius: 50%;
+    width: 400px;
+    height: 300px;
+}
+
+.firstrow {
+    background-image: url("tokyo.jpg") ;
+    height: 450px;
+    width: auto;
+}
+
+logo{
+    color: rgb(220, 25, 25);
+}
