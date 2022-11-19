@@ -107,3 +107,67 @@ div .box > p{
     text-align:center;
     color: dar;
 } 
+
+.quote-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6DFCB;
+}
+
+.quote{
+    width: 500px;
+}
+
+.author {
+    margin-left: 200px;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3ce2ff;
+}
+
+div > .action-container{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    background-color:#ffffff;
+    border-radius: 10%;
+    margin: 70px auto;
+}
+
+div > .text {
+    margin-left: 10px;
+}
+
+#lower-button{
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.button-box > button{
+    margin-top: -5px;
+    margin-right: 10px;
+    background: transparent;
+    border: 2px sold blue;
+    border-radius: 20%;
+    color: crimson;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #0b202d;
+    margin-top: -20px;
+}
+
+.footer > p {
+    font-size: 20px;
+    color: white;
+
+}
+
